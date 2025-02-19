@@ -9,6 +9,7 @@ def hola_mundo():
     return '<h3>Esta es una prueba de pagina web</h3>'
 
 # Ruta personalizada con usuario
+# prueba
 @app.route('/usuario/<nombre>')
 def usuario(nombre):
     return (f'<h1>¡Bienvenido, {nombre}!</h1> '
