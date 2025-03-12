@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Live_Ubuntu{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Live_Ubuntu/Formulario</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='formulario.css') }}">
 </head>
+<body>
+    <h2>Ingresa tus datos</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <p>{{ form.nombre.label }} {{ form.nombre() }}</p>
+        <p>{{ form.primer_apellido.label }} {{ form.primer_apellido() }}</p>
+        <p>{{ form.segundo_apellido.label }} {{ form.segundo_apellido() }}</p>
+        <p>{{ form.edad.label }} {{ form.edad() }}</p>
+        <p>{{ form.correo.label }} {{ form.correo() }}</p>
+        <p>{{ form.deporte.label }} {{ form.deporte() }}</p>
+        <p>{{ form.comida.label }} {{ form.comida() }}</p>
+        <p>{{ form.submit() }}</p>
+    </form>
+</body>
+</html>

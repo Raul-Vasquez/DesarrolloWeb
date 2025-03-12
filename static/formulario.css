@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    display: flex;
+    flex-direction: column; /* Cambiamos a columna */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.formulario-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px; /* Agregamos un margen superior */
+}
+
+h2 {
+    text-align: center;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+input[type="submit"] {
+    background-color: #ffd700;
+    color: #4a00e0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px; /* Espacio encima del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #ffeb3b;
+}
+
+p {
+    margin: 8px 0; /* Espacio entre los párrafos */
+}

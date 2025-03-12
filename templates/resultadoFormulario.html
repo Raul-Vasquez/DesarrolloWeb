@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Live_Ubuntu/Resultados</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='resultadoFormulario.css') }}">
+</head>
+<body>
+    <h2>¡Formulario enviado!</h2>
+
+    {% if nombre and primer_apellido and segundo_apellido and edad and correo and deporte and comida %}
+        <p>Nombre: {{ nombre }}</p>
+        <p>Primer Apellido: {{ primer_apellido }}</p>
+        <p>Segundo Apellido: {{ segundo_apellido }}</p>
+        <p>Edad: {{ edad }}</p>
+        <p>Correo Electrónico: {{ correo }}</p>
+        <p>Deporte Favorito: {{ deporte }}</p>
+        <p>Comida Favorita: {{ comida }}</p>
+    {% else %}
+        <p>Error: Datos incompletos</p>
+    {% endif %}
+
+    <a href="/">Volver</a>
+</body>
+</html>
