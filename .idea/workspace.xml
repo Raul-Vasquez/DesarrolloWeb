@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59e44ae3-bce8-431f-8e67-d4df59f4ef8e" name="Changes" comment="Desarrollo Web">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/datos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/datos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos/datos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semana_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semana_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/semana_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/formulario.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/formulario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/resultadoFormulario.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/resultadoFormulario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/resultadoFormulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/resultadoFormulario.html" afterDir="false" />
-    </list>
+    <list default="true" id="59e44ae3-bce8-431f-8e67-d4df59f4ef8e" name="Changes" comment="Desarrollo Web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,6 +186,8 @@
       <workItem from="1741390221170" duration="2507000" />
       <workItem from="1741812163709" duration="1418000" />
       <workItem from="1741813633029" duration="1386000" />
+      <workItem from="1741815308335" duration="170000" />
+      <workItem from="1742525773509" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Trabajo Semana 9">
       <option name="closed" value="true" />
@@ -259,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740185143440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Desarrollo Web">
+      <option name="closed" value="true" />
+      <created>1741815339764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741815339764</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
