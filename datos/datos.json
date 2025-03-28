@@ -1,23 +1,23 @@
 [
-  {
-    "nombre": "Raul",
-    "edad": 35,
-    "correo": "rs.vasquez@uea.edu.ec",
-    "deporte": "Futbol",
-    "comida": "Encebollado"
-  },
-  {
-    "nombre": "Maria",
-    "edad": 28,
-    "correo": "maria@ejemplo.com",
-    "deporte": "Baloncesto",
-    "comida": "Pizza"
-  },
-  {
-    "nombre": "Carlos",
-    "edad": 42,
-    "correo": "carlos@otroejemplo.com",
-    "deporte": "Tenis",
-    "comida": "Hamburguesa"
-  }
+    {
+        "nombre": "Raul",
+        "edad": 35,
+        "correo": "rs.vasquez@uea.edu.ec",
+        "deporte": "Futbol",
+        "comida": "Encebollado"
+    },
+    {
+        "nombre": "Maria",
+        "edad": 28,
+        "correo": "maria@ejemplo.com",
+        "deporte": "Baloncesto",
+        "comida": "Pizza"
+    },
+    {
+        "nombre": "Carlos",
+        "edad": 42,
+        "correo": "carlos@otroejemplo.com",
+        "deporte": "Tenis",
+        "comida": "Hamburguesa"
+    }
 ]

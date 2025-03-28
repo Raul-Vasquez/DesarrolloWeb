@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Editar Producto</title>
+</head>
+<body>
+    <h1>Editar Producto</h1>
+    <form method="POST" action="{{ url_for('editar_producto', id_producto=producto.id_producto) }}">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" value="{{ producto.nombre }}" required><br>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" id="descripcion">{{ producto.descripcion }}</textarea><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" name="precio" id="precio" value="{{ producto.precio }}" step="0.01" required><br>
+
+        <label for="stock">Stock:</label>
+        <input type="number" name="stock" id="stock" value="{{ producto.stock }}" required><br>
+
+        <label for="tipo">Tipo:</label>
+        <select name="tipo" id="tipo" required>
+            <option value="celular" {% if producto.tipo == 'celular' %}selected{% endif %}>Celular</option>
+            <option value="computadora" {% if producto.tipo == 'computadora' %}selected{% endif %}>Computadora</option>
+        </select><br>
+
+        <button type="submit">Guardar Cambios</button>
+    </form>
+</body>
+</html>

@@ -11,6 +11,8 @@ app.config['SECRET_KEY'] = 'tu_clave_secreta'  # ¡Reemplaza con una clave secre
 # Definición del formulario
 class MiFormulario(FlaskForm):
     nombre = StringField('Nombre', validators=[DataRequired()])
+    primer_apellido = StringField('Primer Apellido', validators=[DataRequired()])  # Agregado
+    segundo_apellido = StringField('Segundo Apellido', validators=[DataRequired()]) # Agregado
     edad = IntegerField('Edad', validators=[DataRequired()])
     correo = EmailField('Correo', validators=[DataRequired()])
     deporte = StringField('Deporte', validators=[DataRequired()])
@@ -18,7 +20,7 @@ class MiFormulario(FlaskForm):
     submit = SubmitField('Enviar')
 
 # Ruta para el formulario
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/formulario', methods=['GET', 'POST'])
 def formulario():
     form = MiFormulario()
     if form.validate_on_submit():

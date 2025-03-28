@@ -1,0 +1,17 @@
+body {
+    background-image: url('/static/Inicio_Pagina.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura del viewport */
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+}
+
+.login-container .btn-primary {
+    background-color: purple; /* Cambiar el color del botón a púrpura */
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
