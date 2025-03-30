@@ -2,10 +2,11 @@
 <html lang="es">
 <head>
     <title>Lista de Productos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesProductos.css') }}">
 </head>
 <body>
     <h1>Lista de Productos</h1>
-    <a href="{{ url_for('agregar_producto') }}">Agregar Producto</a>
+    <button onclick="location.href='{{ url_for('agregar_producto') }}'">Agregar Producto</button>
     <table>
         <thead>
             <tr>

@@ -1,17 +1,51 @@
 body {
     background-image: url('/static/Inicio_Pagina.jpg');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-size: contain; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura del viewport */
     margin: 0; /* Elimina los márgenes predeterminados del body */
 }
+/* Estilos para el contenedor del formulario */
+.container.mt-5 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center; /* Centrar el contenido horizontalmente */
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
+}
 
-.login-container .btn-primary {
-    background-color: purple; /* Cambiar el color del botón a púrpura */
+/* Estilos para el título */
+.container.mt-5 h2 {
+    color: #00bcd4;
+}
+
+/* Estilos para los campos de entrada */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 5px;
-    width: 100%;
+    color: #fff;
+    text-align: justify-all; /* Centrar el texto dentro de los campos */
+}
+
+.form-control:focus {
+    background-color: rgb(255, 255, 255);
+    color: #f3c409;
+}
+
+/* Estilos para el botón */
+.btn-primary {
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
     padding: 10px;
     box-sizing: border-box;
+    color: white;
 }
+
+

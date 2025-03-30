@@ -1,0 +1,56 @@
+body {
+    background-image: url('/static/Crecimiento.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura del viewport */
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+}
+h1 {
+    text-align: center; /* Centrar el título horizontalmente */
+    margin-bottom: 20px; /* Margen inferior para separarlo del formulario */
+    color: #103dd3; /* Color del texto */
+    font-family: sans-serif; /* Fuente del texto */
+}
+/* Estilos para el formulario en general */
+form {
+    width: 400px; /* Ancho del formulario */
+    margin: 20px auto; /* Centrar el formulario horizontalmente */
+    padding: 20px; /* Espacio interno del formulario */
+    border: 1px solid #151414; /* Borde gris claro */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #c4c6c5; /* Color de fondo gris claro */
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block; /* Cada etiqueta en una línea nueva */
+    margin-bottom: 5px; /* Margen inferior para separar las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Los campos ocupan todo el ancho del formulario */
+    padding: 10px; /* Espacio interno de los campos */
+    margin-bottom: 10px; /* Margen inferior para separar los campos */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+    background-color: #c111f1; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 8px 16px; /* Espacio interno del botón */
+    border: none; /* Eliminar el borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor a una mano al pasar el ratón */
+    width: 30%; /* El botón ocupa el centro del formulario */
+    margin: auto; /* Centrar el botón horizontalmente */
+    display: block; /* El botón ocupa toda la línea */
+}

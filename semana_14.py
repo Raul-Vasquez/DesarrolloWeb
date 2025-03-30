@@ -83,9 +83,10 @@ def listar_productos():
     conexion.close()
     return render_template('productos.html', productos=productos)
 
+
 # Crea una ruta para agregar nuevos productos:
 @app.route('/productos/agregar', methods=['GET', 'POST'])
-@login_required
+#@login_required
 def agregar_producto():
     if request.method == 'POST':
         nombre = request.form['nombre']
@@ -103,7 +104,7 @@ def agregar_producto():
 
 # Crea una ruta para editar productos existentes:
 @app.route('/productos/editar/<int:id_producto>', methods=['GET', 'POST'])
-@login_required
+#@login_required
 def editar_producto(id_producto):
     conexion = conectar_db()
     cursor = conexion.cursor()
@@ -125,7 +126,7 @@ def editar_producto(id_producto):
 
 # Crea una ruta para eliminar productos:
 @app.route('/productos/eliminar/<int:id_producto>')
-@login_required
+#@login_required
 def eliminar_producto(id_producto):
     conexion = conectar_db()
     cursor = conexion.cursor()

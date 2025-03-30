@@ -17,9 +17,25 @@
                 <label for="password">Contraseña:</label>
                 <input type="password" name="password" id="password" class="form-control" required>
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="verPassword">
+                <label class="form-check-label" for="verPassword">Mostrar Contraseña</label>
+            </div>
             <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
         </form>
     </div>
+    <script>
+        const passwordInput = document.getElementById('password');
+        const verPasswordCheckbox = document.getElementById('verPassword');
+
+        verPasswordCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

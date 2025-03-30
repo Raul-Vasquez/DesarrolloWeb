@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+      margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: "Arial Narrow", monospace;
+
+
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Estilos para los enlaces de acciones */
+td a {
+    background-color: #1972ba;
+    color: white;
+    margin-right: 5px;
+}
+
+td a:last-child {
+    background-color: #e10e65;
+}
+
+td a:hover {
+    opacity: 0.8;
+}
+
+button {
+   background-image: linear-gradient(to right, #323235, #6106f4); /* Degradado de plomo a púrpura */
+    color: white; /* Color del texto blanco */
+    padding: 10px 15px; /* Espacio interno del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Permite aplicar márgenes y rellenos */
+    margin-bottom: 20px; /* Margen inferior para separarlo de la tabla */
+    border: none; /* Elimina el borde predeterminado */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar el ratón */
+}
